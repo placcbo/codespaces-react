@@ -5,10 +5,11 @@ import Card from './components/Card.jsx'
 
 
 function App() {
-  //<Hero/>
+//<Navbar/>
+//<Hero/>
   return (
 <div>
-<Navbar/>
+
 <Card/>
 
 

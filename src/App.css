@@ -36,3 +36,38 @@ align-self: center;
     margin-top: 0;
     max-width: 300px;
 }
+
+.card{
+    width:175px;
+  
+    font-size: 12px;
+ 
+}
+
+.card-image{
+    width:100%;
+    border-radius: 9px;
+    margin-bottom: 10px;
+
+}
+
+.card-stats{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.card-star{
+    height: 14px;
+}
+
+.grey{
+    color:#918E9B;
+}
+
+.container{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin: 5px 10px;
+}
