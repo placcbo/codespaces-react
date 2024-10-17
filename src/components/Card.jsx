@@ -1,4 +1,4 @@
-function Card(prop){
+function Card(){
 const time = new Date()
 
 return (
