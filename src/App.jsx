@@ -3,21 +3,42 @@ import Navbar from "./components/Navbar.jsx";
 import Hero from './components/Hero.jsx'
 import Card from './components/Card.jsx'
 import ContactList from './components/ContactList.jsx'
+import Jokes from './components/jokes.jsx'
+
+import jokesData from './components/jokesData.jsx'
 
 
 function App() {
+
+//<div>
 //<Navbar/>
 //<Hero/>
 //<Card/>
-  return (
+//<ContactList/>
+
+const jokeElements = jokesData.map(joke => {
+  return <Jokes
+  setup = {joke.setup}
+  punchline = {joke.punchline}
+  
+  />
+})
+
+return (
 <div>
-<ContactList/>
+
+{jokeElements}
+
+</div>
 
 
+)
 
-
- </div>
-  );
 }
+
+
+
+
+
 
 export default App;

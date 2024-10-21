@@ -1,21 +1,21 @@
 import React from "react";
-function ContactList (prop){
+function ContactList (props){
     return (
 
 
-<div className="contact-list-container">
+<div className="contact-list">
 
-        <img src="src/images/Fluffykins.jpg" alt="" className="contact-image" />
+        <img src={props.img}alt="" className="contact-image" />
   
-    <h1>Mr.Whiskerson</h1>
+    <h1>{props.name}</h1>
     <div className="contact-information">
         <div className="phone">
             <img src="src/images/calling.png" alt="" />
-            <p>(212-555-1234)</p>
+            <p>{props.phone}</p>
         </div>
         <div className="email-details">
             <img src="src/images/mail.png" alt="" />
-            <p>mr.whiskerson@catnap.meow</p>
+            <p>{props.email}</p>
         </div>
     </div>
 
