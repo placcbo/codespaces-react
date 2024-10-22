@@ -1,31 +1,19 @@
-function Card(props){
+import React from "react";
 
-
-return (
-<div className="container">
- 
-<div className="card">
-    <img src={props.image} className="card-image"  alt="" />
-    <div className="card-stats">
-        <img src="src/images/Star 1.png" alt="" className="card-star" />
-        <span>5.0</span>
-        <span>(6) .</span>
-        <span>USA</span>
-    </div>
-    <p className="grey">{props.paragraph1}</p>
-    <p className="grey"><strong>From ${props.price}</strong>/Person</p>
-
-</div>
-
-
-
-</div>
-
-)
+export default function Card(props) {
+    return (
+        <div className="card">
+            {/* Ensure the image src points to the correct public path */}
+            <img src= {`/images/${props.img}`}className="card--image" alt={props.title} />
+            <div className="card--stats">
+                {/* Update this path to reference the image in the public folder */}
+                <img src= "public/images/star.png" className="card--star" alt="Star" />
+                <span>{props.rating}</span>
+                <span className="gray">({props.reviewCount}) • </span>
+                <span className="gray">{props.location}</span>
+            </div>
+            <p>{props.title}</p>
+            <p><span className="bold">From ${props.price}</span> / person</p>
+        </div>
+    );
 }
-
-
-
-
-export default Card
-

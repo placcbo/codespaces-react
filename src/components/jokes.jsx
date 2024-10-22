@@ -6,8 +6,8 @@ return (
 
 <div className="jokes-container">
 
-<h1>{props.setup}</h1>
-<h3>{props.punchline}</h3>
+<h1>{props.h1}</h1>
+<h3>{props.h2}</h3>
 
 
 </div>

@@ -1,174 +1,78 @@
-*{
-    margin:0;
-    padding:0;
+* {
     box-sizing: border-box;
-
 }
 
-nav{
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav {
     height: 70px;
     display: flex;
     padding: 20px 36px;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
 }
-section{
+
+.bold {
+    font-weight: bold;
+}
+
+.gray {
+    color: #918E9B;
+}
+
+.nav--logo {
+    max-width: 100px;
+}
+
+section {
     padding: 20px;
 }
 
-
-.hero{
+.hero {
     display: flex;
     flex-direction: column;
-   
 }
 
-.hero img{
+.hero--photo {
     max-width: 400px;
-align-self: center;
-
+    align-self: center;
 }
 
-.hero-header{
+.hero--header {
     margin-bottom: 16px;
 }
 
-.hero-text{
+.hero--text {
     margin-top: 0;
-    max-width: 300px;
 }
 
-.card{
-    width:175px;
-  
+.card {
+    width: 175px;
     font-size: 12px;
- 
 }
 
-.card-image{
-    width:100%;
+.card--image {
+    width: 100%;
     border-radius: 9px;
-    margin-bottom: 10px;
-
 }
 
-.card-stats{
+.card--stats {
     display: flex;
     align-items: center;
-    margin-bottom: 10px;
 }
 
-.card-star{
+.card--star {
     height: 14px;
 }
 
-.grey{
-    color:#918E9B;
-}
 
-.container{
-    display: flex;
-    gap: 10px;
-    flex-wrap: wrap;
-    margin: 5px 10px;
-}
-
-.contacts h1{
-    margin:10px 0px 10px 0px;
-}
-
-.contacts{
- 
-
-    display: flex;
-gap:20px;
-    flex-wrap: wrap;
-    margin:20px;
-  
-  
-}
-
-
-
-.contact-list{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.contact-image{
-width:80%;
-height: 60%;
-border-radius: 10px;
-}
-
-.phone{
-    display: flex;
-    gap:10px;
-    margin-bottom: 10px;
-}
-
-.phone img{
-    width:20px;
-
-}
-
-.email-details img{
-    width:20px;
-}
-
-.email-details{
-    display: flex;
-    gap:10px;
-}
-
-
-
-
-
-.contact-list-container{
-
+.container {
+gap:8px;
 display: flex;
-
-padding:20px 20px 0px 20px;
-gap:25px;
 flex-wrap: wrap;
-
-}
-
-
-.contact-list{
-  
-    width:250px;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-
+padding:10px 20px;
 
 
 }
-
-
-.jokes-container{
-    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
-    padding:10px 10px;
-    margin:10px 20px;
-    display: flex;
-    flex-direction: column;
-    background: hsl(0, 100%, 55%);
-
-}
-
-.jokes{
-    background: hsl(0, 100%, 40%);
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    margin:10px 20px;
- padding:10px
-}
-
-
-
-
-
-
-
-
-
-
