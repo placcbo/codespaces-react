@@ -51,6 +51,7 @@ section {
 .card {
     width: 175px;
     font-size: 12px;
+    position: relative;
 }
 
 .card--image {
@@ -75,4 +76,18 @@ flex-wrap: wrap;
 padding:10px 20px;
 
 
+}
+
+.absolute{
+background:white;
+border-radius: 5px;
+position: absolute;
+top:6px;
+left: 7px;
+padding:7px 10px;
+font-weight: bold;
+
+}
+.nav--logo{
+    border: none;
 }
